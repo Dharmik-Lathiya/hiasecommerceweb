@@ -1,0 +1,27 @@
+
+.card{
+    padding: 1.5rem;
+    font-size: 1.4rem;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+.card-con{
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    font-size: 1rem;
+}
+.card-con:nth-child(0){
+    color: aqua;
+}
+.card-side-con{
+    display: flex;
+    align-items: end;
+    flex-direction: column;
+}
+.card-conatiner{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}

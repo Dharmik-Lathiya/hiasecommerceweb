@@ -1,0 +1,23 @@
+
+.admin-side-menu-main{
+        border: 1px solid black;
+        border-radius: 0px 10px 10px 0px ;
+        
+}
+.side-menu{
+    font-size: 1.5rem;
+}
+.side-menu li {
+    padding: 5px;
+}
+.side-menu li:hover{
+    background-color: rgb(255, 255, 255);
+    border-radius:10px 0px 0px 0px ;
+    color: green;
+}
+
+@media screen and (max-width:1024px) {
+    .admin-side-menu-main{
+        border: none;
+}
+}

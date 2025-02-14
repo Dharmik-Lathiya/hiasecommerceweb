@@ -1,0 +1,14 @@
+.prod-head{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.add-prod-btn{
+        background-color: green;
+        color: white;
+        border-radius: 10px;
+}
+.list{
+    display: flex;
+    justify-content: space-between;
+}
